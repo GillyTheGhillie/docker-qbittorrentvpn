@@ -184,7 +184,7 @@ RUN echo "deb http://deb.debian.org/debian/ unstable main" > /etc/apt/sources.li
     libqt6network6 \
     libqt6xml6 \
     libqt6sql6 \
-    libssl3 \
+    libssl3t64 \
     moreutils \
     net-tools \
     openresolv \
