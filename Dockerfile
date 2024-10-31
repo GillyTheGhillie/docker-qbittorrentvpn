@@ -1,5 +1,5 @@
 # qBittorrent, OpenVPN and WireGuard, qbittorrentvpn
-FROM debian:bullseye-slim
+FROM debian:bookworm-slim
 
 WORKDIR /opt
 
@@ -131,7 +131,7 @@ RUN apt update \
     curl \
     git \
     jq \
-    openssl-dev \
+    libssl-dev \
     pkg-config \
     qtbase5-dev \
     qttools5-dev \
@@ -153,7 +153,7 @@ RUN apt update \
     curl \
     git \
     jq \
-    openssl-dev \
+    libssl-dev \
     pkg-config \
     qtbase5-dev \
     qttools5-dev \
@@ -180,7 +180,7 @@ RUN echo "deb http://deb.debian.org/debian/ unstable main" > /etc/apt/sources.li
     libqt5network5 \
     libqt5xml5 \
     libqt5sql5 \
-    libssl1.1 \
+    libssl3 \
     moreutils \
     net-tools \
     openresolv \
