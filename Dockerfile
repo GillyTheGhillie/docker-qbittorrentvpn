@@ -131,7 +131,7 @@ RUN apt update \
     curl \
     git \
     jq \
-    libssl-dev \
+    openssl-dev \
     pkg-config \
     qtbase5-dev \
     qttools5-dev \
@@ -153,7 +153,7 @@ RUN apt update \
     curl \
     git \
     jq \
-    libssl-dev \
+    openssl-dev \
     pkg-config \
     qtbase5-dev \
     qttools5-dev \
